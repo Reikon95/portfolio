@@ -60,7 +60,7 @@ function App() {
         </div>
       </div>
       <div className="projects" id="projects">
-        <h1>Some of my projects</h1>
+        <h1>Some of my projects - click them to see further details and to visit them online</h1>
         <div className="icons">
           <a className="imgItem" href="https://bbc.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
           <a className="imgItem" href="https://twitter.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
