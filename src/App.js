@@ -12,7 +12,9 @@ import tw from './twitter.png';
 import gh from './github-logo.png';
 import li from './linkedin.png';
 import na from './under-construction.png';
-import About from './About'
+import About from './About';
+import TechsIntro from './TechsIntro.js';
+import EmploymentStatus from './EmploymentStatus';
 function App() {
   document.title="Cameron Blackwood"
   return (
@@ -40,9 +42,7 @@ function App() {
         <About/>
       </div>
       <div className="techs" id="techs">
-        <h1>What I work with</h1>
-        <p>First and foremost, as cliche as it sounds, I'm a lifelong learner. If you want me to learn something, I gladly will! <br></br>
-        That being said, I currently use...</p>
+        <TechsIntro/>
         <div className="icons">
           <img src={rjs} alt="ReactJS" className="imgItem"/>
           <img src={py} alt="python" className="imgItem"/>
@@ -83,11 +83,7 @@ function App() {
           <img src={gh} alt="Github"/> </a>
         </div>
         </div>
-        <h3>Current Employment Status</h3>
-        <p>I am <strong>AVAILABLE</strong> for permanent job opportunities
-        starting Jan 2020. I'm happy to work anywhere in Zone 1/Zone 2 (or further out if it's South London), but will consider roles elsewhere
-        if I love the sound of them!<br></br> <em>(If you have an office dog, this may or may not factor in...)</em></p>
-        <p>Want to know when I'm on the lookout for jobs? Enter your email below and I'll keep you in the loop!</p>
+        <EmploymentStatus/>
         <div className="submit"><input type="text" placeholder="Enter your email here"/><button>Submit</button></div>
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
