@@ -1,6 +1,5 @@
 // todo 
 // add routes 
-
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
@@ -36,7 +35,7 @@ function App() {
   }}
 />
       </div>
-      <div className="about">
+      <div className="about" id="about">
         <h1>About Me</h1>
         <p>Born in Germany, I moved around a fair bit as a kid, eventually settling in the suburbs of London. I've now lived in 
           various parts of the capital for the past 15 years, making me the most English sounding Scot you'll ever encounter - though when
@@ -62,14 +61,14 @@ function App() {
       <div className="projects" id="projects">
         <h1>Some of my projects - click them to see further details and to visit them online</h1>
         <div className="icons">
-          <a className="imgItem" href="https://bbc.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
-          <a className="imgItem" href="https://twitter.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
-          <a className="imgItem" href="https://youtube.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <div className="imgItem"><img src={na} alt="na"/></div>
+          <div className="imgItem"><img src={na} alt="na"/></div>
+          <div className="imgItem"><img src={na} alt="na"/></div>
           </div>
           <div className="icons">
-          <a className="imgItem project" href="https://facebook.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
-          <a className="imgItem project" href="https://google.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
-          <a className="imgItem project" href="https://amazon.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <div className="imgItem"><img src={na} alt="na"/></div>
+          <div className="imgItem"><img src={na} alt="na"/></div>
+          <div className="imgItem"><img src={na} alt="na"/></div>
         </div>
       </div>
       <div className="contact" id="contact">
@@ -97,7 +96,7 @@ function App() {
         starting Jan 2020. I'm happy to work anywhere in Zone 1/Zone 2 (or further out if it's South London), but will consider roles elsewhere
         if I love the sound of them!<br></br> <em>(If you have an office dog, this may or may not factor in...)</em></p>
       </div>
-      <div class="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
   );
 }
