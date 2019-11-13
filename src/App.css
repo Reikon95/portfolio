@@ -2,7 +2,7 @@
 .welcome {
   background-color: black;
   color: white;
-  font-size: 100px;
+  font-size: 500%;
   padding-top: 10%;
   font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
   min-height: 80vh;
@@ -53,5 +53,19 @@ h3 {
 .imgItem {
   padding-left: 2%;
   padding-right: 2%;
+}
+
+.techs p {
+  text-align: center;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.contact p {
+  text-align: center;
 }
 

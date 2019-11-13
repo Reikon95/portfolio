@@ -1,3 +1,6 @@
+// todo 
+// add routes 
+
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
@@ -58,18 +61,20 @@ function App() {
       </div>
       <div className="projects" id="projects">
         <h1>Some of my projects</h1>
-        <div className="tiles">
-          <p className="tile">Motivational Quote Generator</p>
-          <p>Dog Years Calculator</p>
-          <p>Kodflix</p>
-          <p>Team App</p>
-          <p>To Do List</p>
-          <p>Text based game</p>
+        <div className="icons">
+          <p className="imgItem">Motivational Quotes</p>
+          <p className="imgItem">Dog Years Calculator</p>
+          <p className="imgItem">Kodflix</p>
+          </div>
+          <div className="icons">
+          <p className="imgItem">Team App</p>
+          <p className="imgItem">To Do List</p>
+          <p className="imgItem">Text based game</p>
         </div>
       </div>
       <div className="contact" id="contact">
         <h1>Contact me</h1>
-        <p>Feel free to get in touch with me if you have any questions.</p>
+        <p>Feel free to get in touch with me via any of the below if you have any questions.</p>
         <div className="icons">
         <div className="imgItem">
           <a href="mailto:cameronjwblackwood@gmail.com"> <img src={em} alt="email"/></a>
@@ -88,7 +93,7 @@ function App() {
         </div>
         </div>
         <h3>Current Job Status</h3>
-        <p>I am <strong>AVAILABLE</strong> for job opportunities
+        <p>I am <strong>AVAILABLE</strong> for permanent job opportunities
         starting Jan 2020. I'm happy to work anywhere in Zone 1/Zone 2 (or further out if it's South London), but will consider roles elsewhere
         if I love the sound of them!<br></br> <em>(If you have an office dog, this may or may not factor in...)</em></p>
       </div>
