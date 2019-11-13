@@ -1,5 +1,4 @@
 // TODO - I NEED TO ACTUALLY MAKE THE EMAIL SUBMISSION WORK!
-
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
@@ -83,7 +82,7 @@ function App() {
           <img src={gh} alt="Github"/> </a>
         </div>
         </div>
-        <EmploymentStatus/>
+        <EmploymentStatus looking="yes"/>
         <div className="submit"><input type="text" placeholder="Enter your email here"/><button>Submit</button></div>
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
