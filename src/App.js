@@ -1,6 +1,11 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
+import css from './css-3.png';
+import js from './javascript.png';
+import py from './python.png';
+import aws from './amazon.png';
+import rjs from './react.png';
 
 function App() {
   document.title="Cameron Blackwood"
@@ -28,7 +33,8 @@ function App() {
       <div className="about">
         <h1>About Me</h1>
         <p>Born in Germany, I moved around a fair bit as a kid, eventually settling in the suburbs of London. I've now lived in 
-          various parts of the capital for the past 15 years, making me the most English sounding Scot you'll ever encounter. I started learning engineering
+          various parts of the capital for the past 15 years, making me the most English sounding Scot you'll ever encounter - though when
+          rugby's on, there's no doubt of my origins! I started learning engineering
           in 2018 inspired by conversations with candidates due to my five year career in technical recruitment. During a stint at ThirdEye
           Labs as their talent acquisition manager, they offered me the chance to be an engineer part time. After loving this experience,
           I'm currently attending Kodiri to firm up on my MERN stack skills, due to graduate at the end of 2019. When I'm not coding, you
@@ -38,13 +44,14 @@ function App() {
       </div>
       <div className="techs" id="techs">
         <h1>What I work with</h1>
-        <p>First and foremost, I'm a lifelong learner. If you want me to learn something, I gladly will! That being said, I currently use...</p>
+        <p>First and foremost, as cliche as it sounds, I'm a lifelong learner. If you want me to learn something, I gladly will! <br></br>
+        That being said, I currently use...</p>
         <div className="icons">
-          <p>React</p>
-          <p>Vanilla JS</p>
-          <p>Python</p>
-          <p>AWS</p>
-          <p>CSS</p>
+          <img src={rjs} alt="ReactJS" className="imgItem"/>
+          <img src={aws} alt="AWS" className="imgItem"/>
+          <img src={py} alt="python" className="imgItem"/>
+          <img src={js} alt="javascript" className="imgItem"/>
+          <img src={css} alt="css" className="imgItem"/>
         </div>
       </div>
       <div className="projects" id="projects">
@@ -59,11 +66,17 @@ function App() {
       </div>
       <div className="contact" id="contact">
         <h1>Contact me</h1>
-        <p>Feel free to get in touch with me if you have any questions. Please note, I am <strong>AVAILABLE</strong>for job opportunities
+        <p>Feel free to get in touch with me if you have any questions.</p>
+        <p>email</p>
+        <p>linkedin</p>
+        <p>twitter</p>
+        <p>github</p>
+        <h3>Current Job Status</h3>
+        <p>I am <strong>AVAILABLE</strong> for job opportunities
         starting Jan 2020. I'm happy to work anywhere in Zone 1/Zone 2 (or further out if it's South London), but will consider roles elsewhere
-        if I love the sound of them! If you have an office dog, this may or may not factor in...</p>
+        if I love the sound of them!<br></br> <em>(If you have an office dog, this may or may not factor in...)</em></p>
       </div>
-      <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div class="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
   );
 }

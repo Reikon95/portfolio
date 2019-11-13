@@ -3,8 +3,8 @@
   color: white;
   font-size: 100px;
   padding-top: 10%;
-  padding-bottom: 10%;
   font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+
 }
 
 .nav {
@@ -26,4 +26,17 @@ h1 {
 
 .icons {
   display: flex;
+}
+.contact p, .techs p, .about p{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.credit {
+  text-align: center;
+  font-size: 50%;
+}
+
+h3 {
+  text-align: center;
 }
