@@ -21,6 +21,7 @@ function App() {
           <a href="#projects">My Projects</a>
           <a href="#contact">Contact Me</a>
       </div>
+      <div className="dark">
       <div className="welcome">
       <Typewriter
   onInit={(typewriter) => {
@@ -28,11 +29,12 @@ function App() {
       .callFunction(() => {
         console.log('String typed out!');
       })
-      .pauseFor(2500).typeString('My name is Cameron Blackwood, a software engineer from London, UK.')
+      .pauseFor(2500).typeString('My name is Cameron Blackwood, a software engineer and former tech recruiter from London.')
       
       .start();
   }}
 />
+      </div>
       </div>
       <div className="about">
         <h1>About Me</h1>
@@ -72,10 +74,21 @@ function App() {
         <h1>Contact me</h1>
         <p>Feel free to get in touch with me if you have any questions.</p>
         <div className="icons">
-        <a href="mailto:cameronjwblackwood@gmail.com"> <img src={em} alt="email" className="imgItem"/> </a>
-        <a href="https://twitter.com/CamBlackwood95" rel="noopener noreferrer" target="_blank"> <img src={tw} alt="Twitter" className="imgItem"/> </a>
-        <a href="https://www.linkedin.com/in/cameron-blackwood-2b758883"  rel="noopener noreferrer" target="_blank"> <img src={li} alt="Linkedin" className="imgItem"/> </a>
-        <a href="https://www.github.com/Reikon95"  rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" target="_blank"> <img src={gh} alt="Github" className="imgItem"/> </a>
+        <div className="imgItem">
+          <a href="mailto:cameronjwblackwood@gmail.com"> <img src={em} alt="email"/></a>
+          </div>
+        <div className="imgItem"> 
+          <a href="https://twitter.com/CamBlackwood95" rel="noopener noreferrer" target="_blank"> 
+        <img src={tw} alt="Twitter"/></a>
+        </div>
+        <div className="imgItem"> 
+          <a href="https://www.linkedin.com/in/cameron-blackwood-2b758883"  rel="noopener noreferrer" target="_blank"> 
+          <img src={li} alt="Linkedin" /> </a>
+        </div>
+        <div className="imgItem">
+          <a href="https://www.github.com/Reikon95"  rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" target="_blank"> 
+          <img src={gh} alt="Github"/> </a>
+        </div>
         </div>
         <h3>Current Job Status</h3>
         <p>I am <strong>AVAILABLE</strong> for job opportunities
