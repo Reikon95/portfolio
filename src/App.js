@@ -6,12 +6,10 @@ function App() {
   return (
     <div className="App">
       <div className="nav">
-        <ul>
-          <li>About Me</li>
-          <li>What I do</li>
-          <li>My Projects</li>
-          <li>Contact Me</li>
-        </ul>
+          <a href="#about">About Me</a>
+          <a href="#techs">What I do</a>
+          <a href="#projects">My Projects</a>
+          <a href="#contact">Contact Me</a>
       </div>
       <div className="welcome">
       <Typewriter
