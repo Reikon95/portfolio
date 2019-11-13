@@ -72,3 +72,9 @@ h3 {
 .about, .techs, .projects, .contact {
   padding-top: 10%;
 }
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
