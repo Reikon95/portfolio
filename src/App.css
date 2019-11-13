@@ -69,3 +69,6 @@ h3 {
   text-align: center;
 }
 
+.project:hover img {
+  opacity: 0.3;
+}

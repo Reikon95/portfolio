@@ -67,9 +67,9 @@ function App() {
           <a className="imgItem" href="https://youtube.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
           </div>
           <div className="icons">
-          <a className="imgItem" href="https://facebook.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
-          <a className="imgItem" href="https://google.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
-          <a className="imgItem" href="https://amazon.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <a className="imgItem project" href="https://facebook.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <a className="imgItem project" href="https://google.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <a className="imgItem project" href="https://amazon.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
         </div>
       </div>
       <div className="contact" id="contact">
