@@ -12,7 +12,7 @@ import em from './email.png';
 import tw from './twitter.png';
 import gh from './github-logo.png';
 import li from './linkedin.png';
-
+import na from './under-construction.png';
 function App() {
   document.title="Cameron Blackwood"
   return (
@@ -30,7 +30,7 @@ function App() {
       .callFunction(() => {
         console.log('String typed out!');
       })
-      .pauseFor(2500).typeString('My name is Cameron Blackwood, a software engineer and former tech recruiter from London.')
+      .pauseFor(1500).typeString('My name is Cameron Blackwood, a software engineer and former tech recruiter from London.')
       
       .start();
   }}
@@ -62,14 +62,14 @@ function App() {
       <div className="projects" id="projects">
         <h1>Some of my projects</h1>
         <div className="icons">
-          <p className="imgItem">Motivational Quotes</p>
-          <p className="imgItem">Dog Years Calculator</p>
-          <p className="imgItem">Kodflix</p>
+          <a className="imgItem" href="https://bbc.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <a className="imgItem" href="https://twitter.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <a className="imgItem" href="https://youtube.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
           </div>
           <div className="icons">
-          <p className="imgItem">Team App</p>
-          <p className="imgItem">To Do List</p>
-          <p className="imgItem">Text based game</p>
+          <a className="imgItem" href="https://facebook.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <a className="imgItem" href="https://google.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
+          <a className="imgItem" href="https://amazon.com" rel="noopener noreferrer" target="_blank"><img src={na} alt="na"/></a>
         </div>
       </div>
       <div className="contact" id="contact">
@@ -88,7 +88,7 @@ function App() {
           <img src={li} alt="Linkedin" /> </a>
         </div>
         <div className="imgItem">
-          <a href="https://www.github.com/Reikon95"  rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" target="_blank"> 
+          <a href="https://www.github.com/Reikon95"  rel="noopener noreferrer" target="_blank"> 
           <img src={gh} alt="Github"/> </a>
         </div>
         </div>
