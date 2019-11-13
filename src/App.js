@@ -1,3 +1,5 @@
+// TODO - I NEED TO ACTUALLY MAKE THE EMAIL SUBMISSION WORK!
+
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';

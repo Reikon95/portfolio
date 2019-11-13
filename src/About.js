@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 function About() {
     return  <><h1>About Me</h1><p>Born in Germany, I moved around a fair bit as a kid, eventually settling in the suburbs of London. I've now lived in 
