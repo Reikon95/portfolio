@@ -1,13 +1,29 @@
 .welcome {
   background-color: black;
   color: white;
+  font-size: 100px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
 }
 
 .nav {
-  background-color: orangered;
+  background-color: black;
+  overflow: hidden;
 
 }
 .nav a {
   color: white;
   text-decoration: none;
+  text-align: center;
+  padding: 8%;
+  padding-left: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
 }
