@@ -20,7 +20,6 @@ function App() {
           <a href="#projects">My Projects</a>
           <a href="#contact">Contact Me</a>
       </div>
-      <div className="dark">
       <div className="welcome">
       <Typewriter
   onInit={(typewriter) => {
@@ -33,7 +32,6 @@ function App() {
       .start();
   }}
 />
-      </div>
       </div>
       <div className="about">
         <h1>About Me</h1>
