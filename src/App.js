@@ -57,11 +57,12 @@ function App() {
       <div className="projects" id="projects">
         <h1>Some of my projects</h1>
         <div className="tiles">
-          <p>React</p>
-          <p>Vanilla JS</p>
-          <p>Python</p>
-          <p>AWS</p>
-          <p>CSS</p>
+          <p>Motivational Quote Generator</p>
+          <p>Dog Years Calculator</p>
+          <p>Kodflix</p>
+          <p>Team App</p>
+          <p>To Do List</p>
+          <p>Text based game</p>
         </div>
       </div>
       <div className="contact" id="contact">

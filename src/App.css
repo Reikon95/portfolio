@@ -40,3 +40,15 @@ h1 {
 h3 {
   text-align: center;
 }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.imgItem {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
