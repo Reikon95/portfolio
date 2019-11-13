@@ -4,7 +4,6 @@ import './App.css';
 import css from './css-3.png';
 import js from './javascript.png';
 import py from './python.png';
-import aws from './amazon.png';
 import rjs from './react.png';
 import em from './email.png';
 import tw from './twitter.png';
@@ -62,7 +61,7 @@ function App() {
       <div className="projects" id="projects">
         <h1>Some of my projects</h1>
         <div className="tiles">
-          <p>Motivational Quote Generator</p>
+          <p className="tile">Motivational Quote Generator</p>
           <p>Dog Years Calculator</p>
           <p>Kodflix</p>
           <p>Team App</p>

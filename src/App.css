@@ -1,16 +1,21 @@
+/* body {
+  background-color: black;
+  color: white;
+} */
 .welcome {
   background-color: black;
   color: white;
   font-size: 100px;
   padding-top: 10%;
   font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+  min-height: 80vh;
 
 }
-.dark {
+/* .dark {
   background-color: black;
   height: 100%;
   padding-bottom: 40%;
-}
+} */
 
 .nav {
   background-color: black;
