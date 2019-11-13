@@ -24,9 +24,6 @@ h1 {
   text-align: center;
 }
 
-.icons {
-  display: flex;
-}
 .contact p, .techs p, .about p{
   padding-left: 2%;
   padding-right: 2%;
@@ -48,7 +45,7 @@ h3 {
   justify-content: space-between;
 }
 .imgItem {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 

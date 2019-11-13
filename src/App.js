@@ -6,6 +6,10 @@ import js from './javascript.png';
 import py from './python.png';
 import aws from './amazon.png';
 import rjs from './react.png';
+import em from './email.png';
+import tw from './twitter.png';
+import gh from './github-logo.png';
+import li from './linkedin.png';
 
 function App() {
   document.title="Cameron Blackwood"
@@ -48,7 +52,6 @@ function App() {
         That being said, I currently use...</p>
         <div className="icons">
           <img src={rjs} alt="ReactJS" className="imgItem"/>
-          <img src={aws} alt="AWS" className="imgItem"/>
           <img src={py} alt="python" className="imgItem"/>
           <img src={js} alt="javascript" className="imgItem"/>
           <img src={css} alt="css" className="imgItem"/>
@@ -68,10 +71,12 @@ function App() {
       <div className="contact" id="contact">
         <h1>Contact me</h1>
         <p>Feel free to get in touch with me if you have any questions.</p>
-        <p>email</p>
-        <p>linkedin</p>
-        <p>twitter</p>
-        <p>github</p>
+        <div className="icons">
+        <a href="mailto:cameronjwblackwood@gmail.com"> <img src={em} alt="email" className="imgItem"/> </a>
+        <a href="https://twitter.com/CamBlackwood95" rel="noopener noreferrer" target="_blank"> <img src={tw} alt="Twitter" className="imgItem"/> </a>
+        <a href="https://www.linkedin.com/in/cameron-blackwood-2b758883"  rel="noopener noreferrer" target="_blank"> <img src={li} alt="Linkedin" className="imgItem"/> </a>
+        <a href="https://www.github.com/Reikon95"  rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" target="_blank"> <img src={gh} alt="Github" className="imgItem"/> </a>
+        </div>
         <h3>Current Job Status</h3>
         <p>I am <strong>AVAILABLE</strong> for job opportunities
         starting Jan 2020. I'm happy to work anywhere in Zone 1/Zone 2 (or further out if it's South London), but will consider roles elsewhere
