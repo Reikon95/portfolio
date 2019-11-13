@@ -14,9 +14,11 @@ import na from './under-construction.png';
 import About from './About';
 import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
+import c from './letter-c.png';
 function App() {
-  document.title="Cameron Blackwood"
-  return (
+  document.title="Cameron Blackwood";
+
+    return (
     <div className="App">
       <div className="nav">
           <a href="#about">About Me</a>
@@ -31,7 +33,7 @@ function App() {
       .callFunction(() => {
         console.log('String typed out!');
       })
-      .pauseFor(1500).typeString('My name is Cameron Blackwood, a software engineer and former tech recruiter from London.')
+      .pauseFor(1000).typeString('My name is Cameron Blackwood, a software engineer and former tech recruiter from London.')
       
       .start();
   }}
@@ -84,6 +86,7 @@ function App() {
         </div>
         <EmploymentStatus looking="yes"/>
         <div className="submit"><input type="text" placeholder="Enter your email here"/><button>Submit</button></div>
+        
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
