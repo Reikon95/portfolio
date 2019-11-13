@@ -61,8 +61,9 @@ function App() {
         <h1>Contact me</h1>
         <p>Feel free to get in touch with me if you have any questions. Please note, I am <strong>AVAILABLE</strong>for job opportunities
         starting Jan 2020. I'm happy to work anywhere in Zone 1/Zone 2 (or further out if it's South London), but will consider roles elsewhere
-        if I love the sound of them!</p>
+        if I love the sound of them! If you have an office dog, this may or may not factor in...</p>
       </div>
+      <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
   );
 }
