@@ -14,8 +14,6 @@ import na from './under-construction.png';
 import About from './About';
 import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
-import c from './letter-c.png';
-import MQP from './MotivationalQuotePic.png';
 import SubscriptionForm from './SubscriptionForm.js';
 function App() {
   document.title="Cameron Blackwood";
