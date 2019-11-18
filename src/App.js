@@ -15,6 +15,7 @@ import About from './About';
 import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
 import c from './letter-c.png';
+import MQP from './MotivationalQuotePic.png';
 function App() {
   document.title="Cameron Blackwood";
 
@@ -54,7 +55,7 @@ function App() {
       <div className="projects" id="projects">
         <h1>Some of my projects - click them to see further details and to visit them online</h1>
         <div className="icons">
-          <div className="imgItem"><img src={na} alt="na"/></div>
+          <div className="imgItem" id="mqp"><img src={na} alt="na"/></div>
           <div className="imgItem"><img src={na} alt="na"/></div>
           <div className="imgItem"><img src={na} alt="na"/></div>
           </div>
