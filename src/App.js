@@ -16,6 +16,7 @@ import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
 import c from './letter-c.png';
 import MQP from './MotivationalQuotePic.png';
+import SubscriptionForm from './SubscriptionForm.js';
 function App() {
   document.title="Cameron Blackwood";
 
@@ -86,8 +87,8 @@ function App() {
         </div>
         </div>
         <EmploymentStatus looking="yes"/>
-        <div className="submit"><input type="text" placeholder="Enter your email here"/><button>Submit</button></div>
-        
+        <SubscriptionForm/>
+
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
