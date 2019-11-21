@@ -54,8 +54,8 @@ function App() {
       <div className="projects" id="projects">
         <h1>Some of my projects - click them to see further details and to visit them online</h1>
         <div className="icons">
-          <div className="imgItem" id="mqp"><img src={na} alt="na"/></div>
-          <div className="imgItem"><img src={na} alt="na"/></div>
+          <div className="imgItem" id="MotivationalQuotes"><img src={na} alt="na"/></div>
+          <div className="imgItem" id="ShineEnergy"><img src={na} alt="na"/></div>
           <div className="imgItem"><img src={na} alt="na"/></div>
           </div>
           <div className="icons">
