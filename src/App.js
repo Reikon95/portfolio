@@ -33,7 +33,7 @@ function App() {
       .callFunction(() => {
         console.log('String typed out!');
       })
-      .pauseFor(1000).typeString('My name is Cameron Blackwood, a software engineer and former tech recruiter from London.')
+      .pauseFor(1000).typeString('My name is Cam, a software engineer and former tech recruiter from London.')
       
       .start();
   }}
