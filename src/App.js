@@ -50,6 +50,12 @@ function App() {
           <img src={js} alt="javascript" className="imgItem"/>
           <img src={css} alt="css" className="imgItem"/>
         </div>
+        <div className="icons">
+          <img src={rjs} alt="AWS" className="imgItem"/>
+          <img src={py} alt="NodeJS" className="imgItem"/>
+          <img src={js} alt="HTML5" className="imgItem"/>
+          <img src={css} alt="Git" className="imgItem"/>
+        </div>
       </div>
       <div className="projects" id="projects">
         <h1>Some of my projects - click them to see further details and to visit them online</h1>
