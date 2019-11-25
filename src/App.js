@@ -1,4 +1,3 @@
-// TODO - I NEED TO ACTUALLY MAKE THE EMAIL SUBMISSION WORK!
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
@@ -15,6 +14,11 @@ import About from './About';
 import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
 import SubscriptionForm from './SubscriptionForm.js';
+import cloud from './cloud-computing.svg';
+import gith from './github-big-logo.svg';
+import htmli from './html-5.svg';
+import nodeLogo from './nodejs.svg';
+
 function App() {
   document.title="Cameron Blackwood";
 
@@ -33,7 +37,7 @@ function App() {
       .callFunction(() => {
         console.log('String typed out!');
       })
-      .pauseFor(1000).typeString('My name is Cam, a software engineer and former tech recruiter from London.')
+      .pauseFor(500).typeString('My name is Cam, a software engineer and former tech recruiter from London.')
       
       .start();
   }}
@@ -51,10 +55,10 @@ function App() {
           <img src={css} alt="css" className="imgItem"/>
         </div>
         <div className="icons">
-          <img src={rjs} alt="AWS" className="imgItem"/>
-          <img src={py} alt="NodeJS" className="imgItem"/>
-          <img src={js} alt="HTML5" className="imgItem"/>
-          <img src={css} alt="Git" className="imgItem"/>
+          <img src={cloud} alt="AWS" className="imgItem"/>
+          <img src={nodeLogo} alt="NodeJS" className="imgItem"/>
+          <img src={htmli} alt="HTML5" className="imgItem"/>
+          <img src={gith} alt="Git" className="imgItem"/>
         </div>
       </div>
       <div className="projects" id="projects">
