@@ -1,10 +1,10 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
-import css from './css-3.png';
-import js from './javascript.png';
-import py from './python.png';
-import rjs from './react.png';
+import css from './css-3.svg';
+import js from './javascript.svg';
+import py from './python.svg';
+import rjs from './react.svg';
 import em from './email.png';
 import tw from './twitter.png';
 import gh from './github-logo.png';
@@ -50,7 +50,7 @@ function App() {
         <TechsIntro/>
         <div className="icons">
           <img src={rjs} alt="ReactJS" className="imgItem"/>
-          <img src={py} alt="python" className="imgItem"/>
+          <img src={py} alt="python" className="imgItem" id="py"/>
           <img src={js} alt="javascript" className="imgItem"/>
           <img src={css} alt="css" className="imgItem"/>
         </div>
