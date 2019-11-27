@@ -9,7 +9,6 @@ import em from './email.png';
 import tw from './twitter.png';
 import gh from './github-logo.png';
 import li from './linkedin.png';
-import na from './under-construction.png';
 import About from './About';
 import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
@@ -18,6 +17,7 @@ import cloud from './cloud-computing.svg';
 import gith from './github-big-logo.svg';
 import htmli from './html-5.svg';
 import nodeLogo from './nodejs.svg';
+import Projects from './Projects.js';
 
 function App() {
   document.title="Cameron Blackwood";
@@ -63,17 +63,9 @@ function App() {
       </div>
       <div className="projects" id="projects">
         <h1>Some of my projects - click them to see further details and to visit them online</h1>
-        <div className="icons">
-          <div className="imgItem" id="MotivationalQuotes"><img src={na} alt="na"/></div>
-          <div className="imgItem" id="ShineEnergy"><img src={na} alt="na"/></div>
-          <div className="imgItem" id="Kodflix"><img src={na} alt="na"/></div>
-          </div>
-          <div className="icons">
-          <div className="imgItem" id="WeatherApp"><img src={na} alt="na"/></div>
-          <div className="imgItem" id="Dog Quiz"><img src={na} alt="na"/></div>
-          <div className="imgItem" id="Careers Page"><img src={na} alt="na"/></div>
-        </div>
+      
       </div>
+      <Projects/>
       <div className="contact" id="contact">
         <h1>Contact me</h1>
         <p>Feel free to get in touch with me via any of the below if you have any questions.</p>
