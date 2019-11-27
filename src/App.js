@@ -66,12 +66,12 @@ function App() {
         <div className="icons">
           <div className="imgItem" id="MotivationalQuotes"><img src={na} alt="na"/></div>
           <div className="imgItem" id="ShineEnergy"><img src={na} alt="na"/></div>
-          <div className="imgItem"><img src={na} alt="na"/></div>
+          <div className="imgItem" id="Kodflix"><img src={na} alt="na"/></div>
           </div>
           <div className="icons">
-          <div className="imgItem"><img src={na} alt="na"/></div>
-          <div className="imgItem"><img src={na} alt="na"/></div>
-          <div className="imgItem"><img src={na} alt="na"/></div>
+          <div className="imgItem" id="WeatherApp"><img src={na} alt="na"/></div>
+          <div className="imgItem" id="Dog Quiz"><img src={na} alt="na"/></div>
+          <div className="imgItem" id="Careers Page"><img src={na} alt="na"/></div>
         </div>
       </div>
       <div className="contact" id="contact">
