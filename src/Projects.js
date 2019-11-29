@@ -4,28 +4,26 @@ export default function Projects() {
 return (
     <>
     <div className="tiles">
-        <div className="tileItem">
+        <div className="tileItem a">
             <p>Motivational Quote Generator</p>
         </div>
-        <div className="tileItem">
+        <div className="tileItem b">
         <p>Energy Bill Application</p>
             
         </div>
-            <div className="tileItem">
+            <div className="tileItem c">
             <p>Kodflix</p>
             
         </div>
-    </div>
-    <div className="tiles">
-        <div className="tileItem">
+        <div className="tileItem d">
         <p>Weather App</p>
 
         </div>
-        <div className="tileItem">
+        <div className="tileItem e">
         <p>Dog Quiz</p>
             
         </div>
-            <div className="tileItem">
+            <div className="tileItem f">
             <p>Careers Page</p>
             </div>
     </div>

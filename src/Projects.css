@@ -1,3 +1,19 @@
+.tiles {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+   
+}
 .tileItem{
     background-color: orangered;
+}
+
+.a,.b,.c{
+    grid-row-start: 1;
+}
+.d,.e,.f{
+    grid-row-start: 2;
+}
+.a, .d {
+    grid-column-start: 1;
 }
