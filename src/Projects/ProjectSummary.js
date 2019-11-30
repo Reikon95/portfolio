@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './ProjectSummaryStyle.css'
 
 function ProjectSummary(props) {
     return (

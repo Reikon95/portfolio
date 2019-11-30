@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectSummary from 'ProjectSummary.js';
+import ProjectSummary from './ProjectSummary.js';
 function WeatherChecker() {
     return (
         <>
