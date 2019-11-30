@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Route } from 'react';
 import './Projects.css';
+import WeatherChecker from './Projects/WeatherChecker';
 export default function Projects() {
 return (
     <>
@@ -15,7 +16,7 @@ return (
             <p>Kodflix</p>
             
         </div>
-        <div className="tileItem d">
+        <div className="tileItem d" onClick={<Route exact path='/:WeatherChecker' component={WeatherChecker}/>}>
         <p>Weather App</p>
 
         </div>
