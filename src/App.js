@@ -1,22 +1,22 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
-import css from './css-3.svg';
-import js from './javascript.svg';
-import py from './python.svg';
-import rjs from './react.svg';
-import em from './email.png';
-import tw from './twitter.png';
-import gh from './github-logo.png';
-import li from './linkedin.png';
+import css from './Imgs/css-3.svg';
+import js from './Imgs/javascript.svg';
+import py from './Imgs/python.svg';
+import rjs from './Imgs/react.svg';
+import em from './Imgs/email.png';
+import tw from './Imgs/twitter.png';
+import gh from './Imgs/github-logo.png';
+import li from './Imgs/linkedin.png';
 import About from './About';
 import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
 import SubscriptionForm from './SubscriptionForm.js';
-import cloud from './cloud-computing.svg';
-import gith from './github-big-logo.svg';
-import htmli from './html-5.svg';
-import nodeLogo from './nodejs.svg';
+import cloud from './Imgs/cloud-computing.svg';
+import gith from './Imgs/github-big-logo.svg';
+import htmli from './Imgs/html-5.svg';
+import nodeLogo from './Imgs/nodejs.svg';
 import Projects from './Projects.js';
 import WeatherChecker from './Projects/WeatherChecker.js'
 
@@ -34,7 +34,7 @@ function App() {
       <div className="welcome">
       <Typewriter
   onInit={(typewriter) => {
-    typewriter.typeString('C://$ Hello World! ')
+    typewriter.typeString('$ Hello World! ')
       .callFunction(() => {
         console.log('String typed out!');
       })

@@ -1,6 +1,7 @@
-import React, { Route } from 'react';
+import React, { Component } from 'react';
 import './Projects.css';
 import WeatherChecker from './Projects/WeatherChecker';
+
 export default function Projects() {
 return (
     <>
@@ -12,11 +13,11 @@ return (
         <p>Energy Bill Application</p>
             
         </div>
-            <div className="tileItem c">
+        <div className="tileItem c">
             <p>Kodflix</p>
             
         </div>
-        <div className="tileItem d" onClick={<Route exact path='/:WeatherChecker' component={WeatherChecker}/>}>
+        <div className="tileItem d">
         <p>Weather App</p>
 
         </div>
@@ -33,16 +34,3 @@ return (
 
 }
 
-// <>
-// <div className="icons">
-// <div className="imgItem" id="MotivationalQuotes">Motivational Quote Generator</div>
-// <div className="imgItem" id="ShineEnergy">Energy Bill Application</div>
-// <div className="imgItem" id="Kodflix">Kodflix</div>
-// </div>
-// <div className="icons">
-// <div className="imgItem" id="WeatherApp">Weather App</div>
-// <div className="imgItem" id="Dog Quiz">Dog Quiz</div>
-// <div className="imgItem" id="Careers Page">Careers Page</div>
-// </div>
-// </>
-// }
