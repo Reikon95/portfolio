@@ -18,7 +18,7 @@ import gith from './Imgs/github-big-logo.svg';
 import htmli from './Imgs/html-5.svg';
 import nodeLogo from './Imgs/nodejs.svg';
 import Projects from './Projects.js';
-import WeatherChecker from './Projects/WeatherChecker.js'
+import GetTechs from './Techs.js';
 
 function App() {
   document.title="Cameron Blackwood";
@@ -89,10 +89,13 @@ function App() {
         </div>
         <EmploymentStatus looking="yes"/>
         <SubscriptionForm/>
-
+        <GetTechs/>
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-      <WeatherChecker/>
+      TESTING AREA
+      {/* <WeatherChecker/> */}
+      
+      
     </div>
   );
 }
