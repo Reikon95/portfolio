@@ -23,4 +23,5 @@
 
   .tech:hover .techDetails{
       display: inline-block;
+      width: 100%;
   }
