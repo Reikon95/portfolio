@@ -17,3 +17,10 @@
   #fix {
       width: 100%;
   }
+  .techDetails {
+      display: none;
+  }
+
+  .tech:hover .techDetails{
+      display: inline-block;
+  }

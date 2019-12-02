@@ -1,10 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
-import css from './Imgs/css-3.svg';
-import js from './Imgs/javascript.svg';
-import py from './Imgs/python.svg';
-import rjs from './Imgs/react.svg';
 import em from './Imgs/email.png';
 import tw from './Imgs/twitter.png';
 import gh from './Imgs/github-logo.png';
@@ -13,10 +9,6 @@ import About from './About';
 import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
 import SubscriptionForm from './SubscriptionForm.js';
-import cloud from './Imgs/cloud-computing.svg';
-import gith from './Imgs/github-big-logo.svg';
-import htmli from './Imgs/html-5.svg';
-import nodeLogo from './Imgs/nodejs.svg';
 import Projects from './Projects.js';
 import GetTechs from './Techs.js';
 
@@ -49,18 +41,7 @@ function App() {
       </div>
       <div className="techs" id="techs">
         <TechsIntro/>
-        <div className="icons">
-          <img src={rjs} alt="ReactJS" className="imgItem"/>
-          <img src={py} alt="python" className="imgItem" id="py"/>
-          <img src={js} alt="javascript" className="imgItem"/>
-          <img src={css} alt="css" className="imgItem"/>
-        </div>
-        <div className="icons">
-          <img src={cloud} alt="AWS" className="imgItem"/>
-          <img src={nodeLogo} alt="NodeJS" className="imgItem"/>
-          <img src={htmli} alt="HTML5" className="imgItem"/>
-          <img src={gith} alt="Git" className="imgItem"/>
-        </div>
+        <GetTechs/>
       </div>
       <div className="projects" id="projects">
         <h1>Some of my projects - click them to see further details and to visit them online</h1>
@@ -89,7 +70,6 @@ function App() {
         </div>
         <EmploymentStatus looking="yes"/>
         <SubscriptionForm/>
-        <GetTechs/>
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       TESTING AREA
