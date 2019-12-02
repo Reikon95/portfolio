@@ -4,9 +4,7 @@
     grid-template-rows: 2;
    
 }
-.tileItem{
-    background-color: orangered;
-}
+
 
 .a,.b,.c{
     grid-row-start: 1;
@@ -16,4 +14,11 @@
 }
 .a, .d {
     grid-column-start: 1;
+}
+
+.proButton {
+    font-size: 70%;
+    width: 20%;
+    display: block;
+    margin-left: 35%;
 }
