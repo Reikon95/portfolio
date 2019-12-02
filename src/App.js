@@ -45,7 +45,7 @@ function App() {
       </div>
       <div className="projects" id="projects">
         <h1>Some of my projects - click them to see further details and to visit them online</h1>
-      
+        <em className="disclaimer">Please allow up to 30 seconds for some apps to load, due to Heroku restrictions.</em>
       </div>
       <Projects/>
       <div className="contact" id="contact">
@@ -72,10 +72,8 @@ function App() {
         <SubscriptionForm/>
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-      TESTING AREA
-      {/* <WeatherChecker/> */}
-      
-      
+
+            
     </div>
   );
 }
