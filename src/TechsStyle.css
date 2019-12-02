@@ -1,0 +1,19 @@
+.technologies {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10%;
+
+  }
+  .tech {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 2%;
+    width: 10%;
+    height: auto;
+  }
+
+  #fix {
+      width: 100%;
+  }
