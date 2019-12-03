@@ -37,14 +37,14 @@ return (
         </div>
         </div>
         <div className="tileItem e">
-        <h3>Dog Quiz</h3>
+        <h3>Football App</h3>
         <div className="projectFurtherDetails">
             Find out which dog breed is suitable for you, using this ReactJS based quiz!
             <a href="https://github.com/Reikon95/Dont-Shop-Adopt" target="_blank"><button className="proButton">Launch App!</button></a>
         </div>    
         </div>
             <div className="tileItem f">
-            <h3>Careers Page</h3>
+            <h3>Festipal</h3>
             <div className="projectFurtherDetails">
             A simple webpage using the power of pure CSS to show a startup's team.
             <a href="https://github.com/Reikon95?tab=repositories" target="_blank"><button className="proButton">Launch App!</button></a>
