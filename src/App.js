@@ -4,7 +4,7 @@ import em from './Imgs/email.png';
 import tw from './Imgs/twitter.png';
 import gh from './Imgs/github-logo.png';
 import li from './Imgs/linkedin.png';
-import About from './About';
+import About from './Components/About';
 import TechsIntro from './TechsIntro.js';
 import EmploymentStatus from './EmploymentStatus';
 import SubscriptionForm from './SubscriptionForm.js';
@@ -18,15 +18,9 @@ function App() {
 
     return (
     <div className="App">
-
-      <Navbar/>
-      
+    <Navbar/>
     <TypeEffect/>
-      
-      <div className="about" id="about">
-                <About/>
-        </div>
-
+    <About/>
       <div className="techs" id="techs">
         <TechsIntro/>
         <GetTechs/>
