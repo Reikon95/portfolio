@@ -1,31 +1,4 @@
 
-.welcome {
-  background-color: black;
-  color: white;
-  font-size: 500%;
-  padding-top: 10%;
-  font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
-  min-height: 80vh;
-
-}
-
-.nav {
-  background-color: black;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-
-}
-.nav a {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  padding: 8%;
-  padding-left: 1%;
-}
-
 h1 {
   text-align: center;
 }

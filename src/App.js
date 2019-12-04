@@ -11,22 +11,18 @@ import SubscriptionForm from './SubscriptionForm.js';
 import Projects from './Projects.js';
 import GetTechs from './Techs.js';
 import TypeEffect from './Components/TypeEffect.js'
+import Navbar from './Components/Navbar.js'
 
 function App() {
   document.title="Cameron Blackwood";
 
     return (
     <div className="App">
+
+      <Navbar/>
       
-      <div className="nav">
-          <a href="#about">About Me</a>
-          <a href="#techs">What I do</a>
-          <a href="#projects">My Projects</a>
-          <a href="#contact">Contact Me</a>
-      </div>
-      <div className="welcome">
     <TypeEffect/>
-      </div>
+      
       <div className="about" id="about">
                 <About/>
         </div>

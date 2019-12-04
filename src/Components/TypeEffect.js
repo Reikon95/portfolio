@@ -1,11 +1,11 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-
+import './TypeEffectStyle.css'
 
 export default function TypeEffect() {
 
     return (
-    
+    <div className="total">
       <Typewriter
   onInit={(typewriter) => {
     typewriter.typeString('$ Hello World! ')
@@ -17,6 +17,7 @@ export default function TypeEffect() {
       .start();
   }}
 />
+</div>
 )
 }
 

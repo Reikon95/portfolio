@@ -1,0 +1,17 @@
+.nav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  
+  }
+  .nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8%;
+    padding-left: 1%;
+  }
+  

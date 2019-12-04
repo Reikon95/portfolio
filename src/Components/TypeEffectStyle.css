@@ -1,0 +1,8 @@
+.total {
+    background-color: black;
+    color: white;
+    font-size: 500%;
+    padding-top: 10%;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+    min-height: 80vh;
+}
