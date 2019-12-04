@@ -1,5 +1,4 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
 import './App.css';
 import em from './Imgs/email.png';
 import tw from './Imgs/twitter.png';
@@ -11,12 +10,14 @@ import EmploymentStatus from './EmploymentStatus';
 import SubscriptionForm from './SubscriptionForm.js';
 import Projects from './Projects.js';
 import GetTechs from './Techs.js';
+import TypeEffect from './Components/TypeEffect.js'
 
 function App() {
   document.title="Cameron Blackwood";
 
     return (
     <div className="App">
+      
       <div className="nav">
           <a href="#about">About Me</a>
           <a href="#techs">What I do</a>
@@ -24,21 +25,12 @@ function App() {
           <a href="#contact">Contact Me</a>
       </div>
       <div className="welcome">
-      <Typewriter
-  onInit={(typewriter) => {
-    typewriter.typeString('$ Hello World! ')
-      .callFunction(() => {
-        console.log('String typed out!');
-      })
-      .pauseFor(500).typeString('My name is Cam, a software engineer and former tech recruiter from London.')
-      
-      .start();
-  }}
-/>
+    <TypeEffect/>
       </div>
       <div className="about" id="about">
-        <About/>
-      </div>
+                <About/>
+        </div>
+
       <div className="techs" id="techs">
         <TechsIntro/>
         <GetTechs/>
@@ -73,7 +65,7 @@ function App() {
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-            
+              
     </div>
   );
 }
