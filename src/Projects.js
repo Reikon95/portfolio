@@ -39,14 +39,14 @@ return (
         <div className="tileItem e">
         <h3>Football App</h3>
         <div className="projectFurtherDetails">
-            Find out which dog breed is suitable for you, using this ReactJS based quiz!
+            A football fan companion app, still in development - you can launch the repo though!
             <a href="https://github.com/Reikon95/Dont-Shop-Adopt" target="_blank"><button className="proButton">Launch App!</button></a>
         </div>    
         </div>
             <div className="tileItem f">
             <h3>Festipal</h3>
             <div className="projectFurtherDetails">
-            A simple webpage using the power of pure CSS to show a startup's team.
+            Team application which generates a event websites according to parameters. 
             <a href="https://github.com/Reikon95?tab=repositories" target="_blank"><button className="proButton">Launch App!</button></a>
         </div>
         </div>
