@@ -47,7 +47,7 @@ return (
             <h3>Festipal</h3>
             <div className="projectFurtherDetails">
             Team application which generates a event websites according to parameters. 
-            <a href="https://github.com/Reikon95?tab=repositories" target="_blank"><button className="proButton">Launch App!</button></a>
+            <a href="https://festipal-kodiri.herokuapp.com/" target="_blank"><button className="proButton">Launch App!</button></a>
         </div>
         </div>
     </div>
