@@ -9,9 +9,9 @@ return (
         <div className="tileItem a">
         <h3>Motivational Quote Generator</h3>
         <div className="projectFurtherDetails">
-            This holds a special place in my heart - my first completed project! It uses vanilla Javascript to generate a new random quote
-            every time you refresh the page.
-            <a href="https://reikon95.github.io/MotivationalQuotes/" target="_blank"><button className="proButton">Launch App!</button></a>
+            This holds a special place in my heart - my first completed project! It previously used vanilla Javascript to generate a new random quote
+            every time you refresh the page, but I've refactored it with react hooks to retrieve a new quote from a small database every 5 seconds.
+            <a href="https://motivationalquotes.cameronjwblackwood.now.sh/" target="_blank"><button className="proButton">Launch App!</button></a>
         </div>
         </div>
         <div className="tileItem b">
@@ -22,14 +22,14 @@ return (
         </div>    
         </div>
         <div className="tileItem c">
-        <h3>Kodflix</h3>
+        <h3>Kodflix*</h3>
         <div className="projectFurtherDetails">
             This is a full stack application designed to replicate Netflix, using ReactJS, NodeJS, ExpressJs and MongoDB.
             <a href="https://kodflix-cjwb.herokuapp.com/" target="_blank"><button className="proButton">Launch App!</button></a>
         </div>    
         </div>
         <div className="tileItem d">
-        <h3>Weather App</h3>
+        <h3>Weather App*</h3>
         <div className="projectFurtherDetails">
             This is a simple responsive weather app using the OpenWeather API to deliver data about different locations. 
             The app is built in ReactJS.
@@ -44,7 +44,7 @@ return (
         </div>    
         </div>
             <div className="tileItem f">
-            <h3>Festipal</h3>
+            <h3>Festipal*</h3>
             <div className="projectFurtherDetails">
             Team application which generates a event websites according to parameters. 
             <a href="https://festipal-kodiri.herokuapp.com/" target="_blank"><button className="proButton">Launch App!</button></a>

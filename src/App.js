@@ -27,7 +27,7 @@ function App() {
       </div>
       <div className="projects" id="projects">
         <h1>Some of my projects - click them to see further details and to visit them online</h1>
-        <em className="disclaimer">Please allow up to 30 seconds for some apps to load, due to Heroku restrictions.</em>
+        <em className="disclaimer">For projects marked with *, please allow up to 10 seconds to load, due to Heroku restrictions.</em>
       </div>
       <Projects/>
       <div className="contact" id="contact">
