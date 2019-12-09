@@ -40,7 +40,7 @@ return (
         <h3>Football App</h3>
         <div className="projectFurtherDetails">
             A football fan companion app, still in development - you can launch the repo though!
-            <a href="https://github.com/Reikon95/Dont-Shop-Adopt" target="_blank"><button className="proButton">Launch App!</button></a>
+            <a href="https://github.com/Reikon95/FootballPerformanceDashboard" target="_blank"><button className="proButton">Launch App!</button></a>
         </div>    
         </div>
             <div className="tileItem f">
