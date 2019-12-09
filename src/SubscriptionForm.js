@@ -11,7 +11,6 @@ function SubscriptionForm() {
         <div className="item"><input type="text" placeholder="Enter your email"/></div>
         <div className="item"><input type="text" placeholder="Enter your organisation"/></div>
         <div className="item"><button onClick={handleSubmission}>Submit</button><p>{message}</p></div>
-        {/* <div className="item">{message}</div> */}
         </div>
 
 
