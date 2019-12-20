@@ -12,7 +12,7 @@ export default function TypeEffect() {
       .callFunction(() => {
         console.log('String typed out!');
       })
-      .pauseFor(500).typeString('My name is Cam, a software engineer and former tech recruiter from London.')
+      .pauseFor(1).typeString('My name is Cam, a software engineer from London.')
       
       .start();
   }}
