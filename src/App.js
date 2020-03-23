@@ -50,7 +50,7 @@ function App() {
           <img src={gh} alt="Github"/> </a>
         </div>
         </div>
-        <EmploymentStatus/>
+        <EmploymentStatus looking="yes"/>
         <SubscriptionForm/>
       </div>
       <div className="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
