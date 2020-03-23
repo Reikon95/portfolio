@@ -1,7 +1,7 @@
 import React from 'react';
 
-function EmploymentStatus(props) {
-    if (props.looking ==="yes") {
+function EmploymentStatus({looking}) {
+    if (looking ==="yes") {
    return  <>
     <h3>Current Employment Status</h3>
         <p>I am <strong>AVAILABLE</strong> for permanent job opportunities
@@ -9,7 +9,7 @@ function EmploymentStatus(props) {
         if I love the sound of them!<br></br> <em>(If you have an office dog, this will factor in...)</em></p>
         <p>Want to tell me about an awesome job and/or request a CV? <a href="mailto:cameronjwblackwood@gmail.com?Subject=Great%20Job">Email me!</a></p>
     </>
-    } else if (props.looking==="passive") {
+    } else if (looking==="passive") {
         return  <>
         <h3>Current Employment Status</h3>
             <p>I am <strong>OPEN TO DISCUSSING</strong> permanent job opportunities
